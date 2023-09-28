@@ -1,0 +1,24 @@
+.navigation.show {
+    display: flex;
+    /* or any other style you want to apply when the Navbar is shown */
+}
+
+.navigation.hide {
+    display: none;
+    /* or any other style you want to apply when the Navbar is hidden */
+}
+
+
+@media (max-width:767px) {
+    .navigation {
+        position: absolute;
+        right: 0;
+        top: 42px;
+        background-color: #eeee;
+        color: black;
+        border: 1px solid black;
+        border-radius: 12px;
+        margin-top: 10px;
+        padding: 1rem;
+    }
+}
