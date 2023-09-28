@@ -24,13 +24,12 @@ import Layout from "./components/Layout/Layout";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/short-link-react/">
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
-            
           </Routes>
         </Layout>
       </BrowserRouter>
